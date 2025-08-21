@@ -14,9 +14,10 @@ const Hero: React.FC = () => {
       </h2>
 
      
-      <h4 className="text-lg sm:text-xl mb-8 text-gray-300 max-w-xl">
-        It's Simple, Prompt. Review. Deploy!
-      </h4>
+      <h4 className="text-lg sm:text-xl mb-8 text-gray-900 max-w-xl">
+  It's Simple, Prompt. Review. Deploy!
+</h4>
+
 
      
       <div>

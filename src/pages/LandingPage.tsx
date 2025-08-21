@@ -8,7 +8,7 @@ const LandingPage: React.FC = () => {
         <div>
             <Hero />
             <Testimonials />
-            <CTA />
+           
         </div>
     );
 };

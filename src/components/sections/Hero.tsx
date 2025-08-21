@@ -10,7 +10,7 @@ const Hero: React.FC = () => {
       
      
       <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-4 bg-clip-text text-transparent bg-gradient-to-r from-ion-blue to-fusion-pink max-w-3xl">
-        Build a Business mobile app <br className="hidden sm:inline" /> in minutes, not months!
+        Build a Business mobile app <br className="hidden sm:inline" /> in minutes, not months.
       </h2>
 
      

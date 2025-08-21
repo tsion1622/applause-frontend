@@ -16,9 +16,9 @@ const Testimonials: React.FC = () => {
   ];
 
   return (
-    <section className="bg-gray-100 text-gray-900 py-16 px-6">
-      <h3 className="text-3xl font-bold text-center mb-12">What People Are Saying</h3>
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-6xl mx-auto">
+    <section className="bg-gray-100 text-gray-900 py-12 px-6">
+      <h3 className="text-3xl font-bold text-center mb-8">What People Are Saying</h3>
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-6xl mx-auto">
         {testimonials.map((t, index) => (
           <div
             key={index}

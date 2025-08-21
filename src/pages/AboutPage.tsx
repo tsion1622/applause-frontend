@@ -1,4 +1,4 @@
-import Header from '../components/layout/Header';
+
 import Footer from '../components/layout/Footer';
 import Card from '../components/ui/Card';
 
@@ -24,7 +24,7 @@ const AboutPage = () => {
 
     return (
         <div className="min-h-screen bg-quantum-black text-soft-white">
-            <Header />
+          
             <main className="pt-32 pb-16 px-8 max-w-4xl mx-auto">
                 <h1 className="text-5xl font-bold text-center mb-8 bg-clip-text text-transparent bg-gradient-to-r from-ion-blue to-fusion-pink">
                     Empowering Your Vision

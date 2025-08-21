@@ -6,8 +6,8 @@ const Hero: React.FC = () => {
   const navigate = useNavigate();
 
   return (
-    <section className="flex flex-col justify-center items-center bg-quantum-black text-soft-white text-center px-6 py-24">
-
+    <section className="flex flex-col justify-center items-center bg-quantum-black text-soft-white text-center px-6 py-32">
+      
       <h2 className="text-4xl sm:text-5xl font-bold mb-4 bg-clip-text text-transparent bg-gradient-to-r from-ion-blue to-fusion-pink">
         Build a Business mobile app in minutes, not months.
       </h2>
@@ -19,8 +19,8 @@ const Hero: React.FC = () => {
       <div>
         <Button
           size="lg"
-          variant="primary"
-          onClick={() => navigate('/login')} 
+          className="bg-ion-blue text-black hover:bg-solar-orange"
+          onClick={() => navigate('/signup')}
         >
           Go mobile now
         </Button>

@@ -27,7 +27,8 @@ const Highlights: React.FC = () => {
             key={index}
             className="bg-white rounded-xl p-6 shadow-lg flex flex-col justify-between hover:scale-105 transform transition duration-300"
           >
-            <h4 className="text-xl font-semibold mb-2 text-ion-blue">{item.title}</h4>
+           <h4 className="text-xl font-bold mb-2 text-gray-900">{item.title}</h4>
+
             <p className="text-gray-700">{item.description}</p>
           </div>
         ))}

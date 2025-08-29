@@ -33,7 +33,7 @@ const Header: React.FC = () => {
     };
 
     return (
-        <header className="bg-white shadow-sm sticky top-0 z-50">
+        <header className="bg-white shadow-sm sticky top-0 z-50  w-full">
             <nav className="container mx-auto px-4 lg:px-6 py-3 flex justify-between items-center">
                 <Link to="/" className="text-2xl font-bold text-gray-800">
                     Applaude

@@ -17,7 +17,7 @@ const Highlights: React.FC = () => {
   ];
 
   return (
-    <section className="bg-gray-100 text-gray-900 py-12 px-6">
+    <section className="bg-gray-100 text-gray-900 py-12 px-6  w-full">
       <h3 className="text-3xl font-bold text-center mb-8">
         Why Choose Applaude
       </h3>
